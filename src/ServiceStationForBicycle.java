@@ -1,4 +1,5 @@
 public class ServiceStationForBicycle implements ServiceStation {
+
     @Override
     public void check(Bicycle bicycle) {
          if (bicycle != null) {

@@ -1,5 +1,6 @@
 public class ServiceStationForTruck implements ServiceStation {
-     @Override
+
+    @Override
     public void check(Truck truck) {
         if (truck != null) {
             System.out.println("Обслуживаем " + truck.getModelName());

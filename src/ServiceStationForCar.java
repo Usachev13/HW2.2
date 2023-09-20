@@ -1,4 +1,5 @@
 public class ServiceStationForCar implements ServiceStation {
+
     @Override
     public void check(Car car) {
         if (car != null) {

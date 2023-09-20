@@ -23,3 +23,4 @@ public class Car {
         System.out.println("Проверяем двигатель");
     }
 }
+
