@@ -11,14 +11,15 @@ public class Main {
         Bicycle bicycle = new Bicycle("bicycle1", 2);
         Bicycle bicycle2 = new Bicycle("bicycle2", 2);
 
-        ServiceStationForBicycle serviceStationForBicycle = new ServiceStationForBicycle();
-        ServiceStationForCar serviceStationForCar = new ServiceStationForCar();
-        ServiceStationForTruck serviceStationForTruck = new ServiceStationForTruck();
-        serviceStationForCar.check(car);
-        serviceStationForCar.check(car2);
-        serviceStationForTruck.check(truck);
-        serviceStationForTruck.check(truck2);
-        serviceStationForBicycle.check(bicycle);
-        serviceStationForBicycle.check(bicycle2);
+
+        ServiceStationVehicle serviceStationVehicle = new ServiceStationVehicle();
+
+        serviceStationVehicle.check(car);
+        serviceStationVehicle.check(car2);
+        serviceStationVehicle.check(truck);
+        serviceStationVehicle.check(truck2);
+        serviceStationVehicle.check(bicycle);
+        serviceStationVehicle.check(bicycle2);
     }
+
 }
